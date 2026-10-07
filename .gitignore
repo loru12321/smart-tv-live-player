@@ -1,0 +1,6 @@
+*.apk
+.DS_Store
+node_modules/
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart TV Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <h1>📺 Smart TV</h1>
+            </div>
+            <div class="channel-list" id="channelList">
+                <div class="loading">加载频道中...</div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="video-container">
+                <video id="videoPlayer" controls autoplay></video>
+                <div class="video-info">
+                    <h2 id="currentChannel">选择频道开始播放</h2>
+                    <p id="channelUrl"></p>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn" id="prevBtn">⬅️ 上一个</button>
+                <button class="btn" id="playPauseBtn">⏯️ 播放/暂停</button>
+                <button class="btn" id="nextBtn">下一个 ➡️</button>
+                <button class="btn" id="refreshBtn">🔄 刷新列表</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
