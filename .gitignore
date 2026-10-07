@@ -1,6 +1,11 @@
 *.apk
+*.apk.idsig
 .DS_Store
 node_modules/
 .vscode/
 .idea/
 *.log
+*.keystore
+*.jks
+**/password.txt
+**/__pycache__/
